@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Getting Started with HTML</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<!-- body is for the visible stuff -->
+
+<body>
+    <header>
+        <div>
+            <img src="images/Title.svg" alt="Museum of ME">
+        </div>
+        <div class="date">
+            <p>as of 10.10.2024</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href='archive.html'>archive</a></li>
+                <li><a href='log.html'>log</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="purp-bkg">
+        <h2>01 | Most Commonly Used Items</h2>
+        <model-viewer src="images/slippers.glb" auto-rotate camera-controls></model-viewer>
+    </section>
+    <section>
+        <h2>02 | People I See</h2>
+        <div class="grid-parent">
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+            <div>
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person</p>
+            </div>
+        </div>
+    </section>
+    <section class="grn-bkg">
+        <h2>03 | Daily Routine</h2>
+        <img src="images/Map.svg" alt="Map">
+    </section>
+    <section>
+        <h2>04 | Always in My Fridge</h2>
+        <div class="fridge-grid">
+
+
+            <div class="large-item"><img src="images/fridge-items/cottage-cheese.png" alt="cottage cheese">
+            </div>
+            <div><img src="images/fridge-items/dubliner.png" alt="fridge-items">
+            </div>
+            <div><img src="images/fridge-items/eggs.webp" alt="eggs">
+            </div>
+            <div><img src="images/fridge-items/pickles.png" alt="pickles"></div>
+        </div>
+    </section>
+    <section class="pnk-bkg">
+        <h2>05 | Common Views</h2>
+        <img src="images/views/driving.jpg" alt="driving">
+    </section>
+    <footer class="pnk-bkg">
+        <nav>
+            archive
+            Log
+        </nav>
+        <p>© Museum of Mostly Everything 2024</p>
+    </footer>
+</body>
+
+</html>
